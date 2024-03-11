@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/principalFragment"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="@string/menu_principal" />
+        <item
+            android:id="@+id/galeriaFragment"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="@string/menu_galeria" />
+        <item
+            android:id="@+id/notificacionesFragment"
+            android:icon="@drawable/baseline_circle_notifications_24"
+            android:title="@string/menu_notificaciones" />
+        <item
+            android:id="@+id/usuariosFragment"
+            android:icon="@drawable/baseline_android_24"
+            android:title="@string/menu_usuarios" />
+        <item
+            android:id="@+id/ventasFragment"
+            android:icon="@drawable/baseline_add_shopping_cart_24"
+            android:title="@string/menu_ventas" />
+    </group>
+</menu>
